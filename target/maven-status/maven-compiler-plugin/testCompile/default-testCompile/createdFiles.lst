@@ -1,3 +1,6 @@
-com\feature\steps\AppTest.class
+com\feature\steps\Login_Steps.class
+com\feature\stepdefination\Login_StepDefination.class
+com\feature\stepdefination\Account_StepDefination.class
+com\feature\steps\Account_Steps.class
 com\testrunner\Hooks.class
 com\testrunner\TestRunner.class

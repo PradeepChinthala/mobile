@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Login feature" skipped="0" tests="1" time="24.42" timestamp="2021-02-15 07:53:54"><testcase name="Validate Invalid User"><failure message="The page object class com.pageobjects.LoginPage looks dodgy:&#10;Failed to instantiate page (net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class io.appium.java_client.AppiumDriver)" type="net.thucydides.core.pages.WrongPageError">The page object class com.pageobjects.LoginPage looks dodgy:
+Failed to instantiate page (net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class io.appium.java_client.AppiumDriver)</failure><system-err>The page object class com.pageobjects.LoginPage looks dodgy:
+Failed to instantiate page (net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class io.appium.java_client.AppiumDriver)&#13;
+net.thucydides.core.pages.Pages.thisPageObjectLooksDodgy(Pages.java:296)&#13;
+net.thucydides.core.pages.Pages.getCurrentPageOfType(Pages.java:224)&#13;
+net.thucydides.core.pages.Pages.getPage(Pages.java:91)&#13;
+net.thucydides.core.steps.PageObjectDependencyInjector.instantiatePageObjectIfNotAssigned(PageObjectDependencyInjector.java:58)&#13;
+net.thucydides.core.steps.PageObjectDependencyInjector.injectDependenciesInto(PageObjectDependencyInjector.java:36)&#13;
+net.serenitybdd.core.Serenity.injectDependenciesInto(Serenity.java:63)&#13;
+net.serenitybdd.core.Serenity.initializeWithNoStepListener(Serenity.java:104)&#13;
+cucumber.runtime.SerenityObjectFactory.newInstance(SerenityObjectFactory.java:68)&#13;
+cucumber.runtime.SerenityObjectFactory.cacheNewInstance(SerenityObjectFactory.java:51)&#13;
+cucumber.runtime.SerenityObjectFactory.getInstance(SerenityObjectFactory.java:41)&#13;
+cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)&#13;
+cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)&#13;
+cucumber.api.TestStep.executeStep(TestStep.java:102)&#13;
+cucumber.api.TestStep.run(TestStep.java:83)&#13;
+cucumber.api.TestCase.run(TestCase.java:58)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)&#13;
+cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)&#13;
+cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)&#13;
+org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)&#13;
+cucumber.api.junit.Cucumber.runChild(Cucumber.java:118)&#13;
+cucumber.api.junit.Cucumber.runChild(Cucumber.java:56)&#13;
+org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:127)&#13;
+org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#13;
+org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+✽.user opened kpcu application(Features/login.feature:15)&#13;
+</system-err></testcase></testsuite>

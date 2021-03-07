@@ -12,10 +12,10 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(plugin = { "pretty", "html:target/cucumber-html-report" }, features = "Features", glue = {
-		"com.feature.steps" }, tags = { "@invalidlogin" }, monochrome = true, dryRun = false)
-public class TestRunner {
+		"com.feature.steps" }, tags = { "@lyy" }, monochrome = true, dryRun = false)
+public class TestRunner extends BrowserStackSerenityTest {
 
-	static AppiumDriverLocalService appiumService;
+	/*static AppiumDriverLocalService appiumService;
 	static String appiumServiceUrl;
 	static Process process;
 
@@ -40,5 +40,5 @@ public class TestRunner {
 			process = null;
 		}
 
-	}
+	}*/
 }

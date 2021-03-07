@@ -4,7 +4,7 @@
  @login
 Feature: Login feature
  
-
+@lyy
   Scenario: Validate User login
     Given user opened kpcu application
     When user enter "testaapple","Welcome2kpcu!"

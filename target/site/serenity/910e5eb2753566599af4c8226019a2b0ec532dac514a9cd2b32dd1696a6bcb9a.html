@@ -144,7 +144,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 15-02-2021 07:53</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 16-02-2021 21:22</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -243,12 +243,32 @@
                                                 Given user opened kpcu application
                                         </span>
                                 <span class="evidence">
+                                            <span class="piece-of-evidence">
+                <a name="report-data-c558f473-9bda-4f63-ab8d-ec7bc5b0d3cc"></a>
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="collapse"
+                            data-target="#reportData-EVIDENCE-1-0">
+                        PASSED
+                    </button>
+                </span>
+                <div class="rest-query-details">
+                    <div class="collapse multi-collapse" id="reportData-EVIDENCE-1-0" tabindex="-1" role="dialog"
+                         aria-labelledby="restModalLabel" aria-hidden="true">
+                        <div class="card">
+                            <h4 class="card-header" id="restModalLabel">
+                                PASSED
+                            </h4>
+                        </div>
+                        <div class="card-body"><pre>Test Case</pre></div>
+                    </div>
+                </div>
+                                            </span>
                                 </span>
                             </div>
                         </td>
 
                         <td width="130"><span class="top-level-step">FAILURE</span></td>
-                        <td width="100"><span class="top-level-step">24.21s</span></td>
+                        <td width="100"><span class="top-level-step">0.62s</span></td>
                     </tr>
                         <tr class="test-FAILURE">
                             <td width="40">&nbsp</td>
@@ -259,7 +279,7 @@
         <div class="table">
             <div class="row">
                 <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">net.thucydides.core.pages.WrongPageError: The page object class com.pageobjects.LoginPage looks dodgy:<br>Failed to instantiate page (net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class io.appium.java_client.AppiumDriver)</span>
+                    <span class="error-message error-message-title">java.lang.AssertionError: PASSED</span>
                 </div>
                 <div class="col-sm-2">
                     <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-1""
@@ -275,11 +295,11 @@
         <div class="collapse multi-collapse" id="stacktraceModal-1">
             <div class="card">
                 <div class="card-header">
-                    <h4>net.thucydides.core.pages.WrongPageError </h4>
+                    <h4>java.lang.AssertionError </h4>
                 </div>
                 <div class="card-body">
                     <div>
-                        <pre>net.thucydides.core.pages.Pages.thisPageObjectLooksDodgy(Pages.java:296)<br />net.thucydides.core.pages.Pages.getCurrentPageOfType(Pages.java:224)<br />net.thucydides.core.pages.Pages.getPage(Pages.java:91)<br />net.thucydides.core.steps.PageObjectDependencyInjector.instantiatePageObjectIfNotAssigned(PageObjectDependencyInjector.java:58)<br />net.thucydides.core.steps.PageObjectDependencyInjector.injectDependenciesInto(PageObjectDependencyInjector.java:36)<br />net.serenitybdd.core.Serenity.injectDependenciesInto(Serenity.java:63)<br />net.serenitybdd.core.Serenity.initializeWithNoStepListener(Serenity.java:104)<br />cucumber.runtime.SerenityObjectFactory.newInstance(SerenityObjectFactory.java:68)<br />cucumber.runtime.SerenityObjectFactory.cacheNewInstance(SerenityObjectFactory.java:51)<br />cucumber.runtime.SerenityObjectFactory.getInstance(SerenityObjectFactory.java:41)<br />cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)<br />cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)<br />cucumber.api.TestStep.executeStep(TestStep.java:102)<br />cucumber.api.TestStep.run(TestStep.java:83)<br />cucumber.api.TestCase.run(TestCase.java:58)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br />cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)<br />cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)<br />cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)<br />org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br />org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br />org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br />org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br />org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br />org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br />cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)<br />cucumber.api.junit.Cucumber.runChild(Cucumber.java:118)<br />cucumber.api.junit.Cucumber.runChild(Cucumber.java:56)<br />org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br />org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br />org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br />org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br />org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br />cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:127)<br />org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)<br />org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)<br />org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br />org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)<br />org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)<br />✽.user opened kpcu application(Features/login.feature:15)<br /></pre>
+                        <pre>com.feature.steps.Login_Steps.Verify(Login_Steps.java:33)<br />com.feature.steps.Login_Steps.user_opened_kpcu_application(Login_Steps.java:40)<br />✽.user opened kpcu application(Features/login.feature:15)<br /></pre>
                     </div>
 
                 </div>
@@ -335,7 +355,7 @@
                 <tr class="test-FAILURE">
                         <td colspan="2"></td>
                     <td width="130"><span class="top-level-step"><em>FAILURE</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>24.42s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>0.71s</em></span></td>
                 </tr>
 
             </table>
